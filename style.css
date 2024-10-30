@@ -126,6 +126,7 @@ span.badge {
 @media screen and (max-width: 500px) {
   body {
     padding: 2%;
+    padding-left: 0%;
   }
   div.card {
     max-width: 279px;
@@ -133,4 +134,20 @@ span.badge {
     flex-shrink: 0;
     box-shadow: #111 6px 6px;
   }
+  p {
+    font-size: 0.875rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+  span.badge,
+  div.writer_name,
+  span.publish_date {
+    font-size: 0.75rem;
+  }
 }
+
+/* 
+add font size for small screen
+padding to bes equll horizontaly
+ */
